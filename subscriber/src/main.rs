@@ -11,14 +11,12 @@ pub struct UserCreatedEventMessage {
 pub struct UserCreatedHandler;
 
 impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
-    // If the compiler complained about the return type being String,
-    // it likely wants one of these values: "Ack", "NackRequeue", or "NackDiscard"
     fn get_handler_action(&self) -> String {
         "Ack".to_string()
     }
 
     fn handle(&self, message: Box<UserCreatedEventMessage>) -> Result<(), HandleError> {
-        println!("In Ade's Computer [129500004y]. Message received: {:?}", message);
+        println!("In Nadya's Computer [2206081635]. Message received: {:?}", message);
         Ok(())
     }
 }
