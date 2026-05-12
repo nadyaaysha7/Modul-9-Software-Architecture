@@ -1,0 +1,5 @@
+## Understanding Subscriber and Message Broker
+
+A. AMQP (Advanced Message Queuing Protocol) adalah protokol komunikasi standar terbuka yang digunakan oleh message broker (seperti RabbitMQ) untuk menerima, menyimpan, dan mendistribusikan pesan antar program secara aman dan andal.
+
+B. AMQP digunakan untuk dapat berkomunikasi dengan broker, program kita menggunakan URL koneksi seperti amqp://guest:guest@localhost:5672. Pada URL tersebut, kata guest yang pertama merepresentasikan username default, sedangkan guest yang kedua adalah password default untuk proses autentikasi. Sementara itu, bagian localhost:5672 menunjukkan lokasi server tujuan, di mana localhost berarti message broker berjalan di komputer lokal kita sendiri, dan 5672 adalah port standar yang digunakan RabbitMQ untuk menerima koneksi AMQP.
