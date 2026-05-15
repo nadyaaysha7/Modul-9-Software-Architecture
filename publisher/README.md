@@ -25,3 +25,9 @@ Grafik pada dashboard RabbitMQ menunjukkan kondisi idle (diam) karena koneksi an
 ![img_3.png](img_3.png)
 
 Simulasi slow subscribers, total queue saya 0.
+
+## Running 3 Subscribers
+
+![img_4.png](img_4.png)
+
+Simulasi setidaknya 3 subscribers.
