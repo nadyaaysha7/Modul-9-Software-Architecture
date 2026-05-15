@@ -16,9 +16,7 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
     }
 
     fn handle(&self, message: Box<UserCreatedEventMessage>) -> Result<(), HandleError> {
-        println!("Processing message...");
-        thread::sleep(time::Duration::from_secs(10));
-        println!("Done!");
+        println!("In Nadya's Computer [2206081635]. Message received: {:?}", message);
         Ok(())
     }
 }
