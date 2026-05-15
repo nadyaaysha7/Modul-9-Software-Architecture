@@ -12,6 +12,16 @@ B. Penggunaan URL "amqp://guest:guest@localhost:5672" yang sama persis dengan pr
 
 ![img_1.png](img_1.png)
 
+Program subscriber berhasil menerima dan memproses sepuluh pesan event UserCreated secara berurutan yang dikirimkan oleh program publisher melalui RabbitMQ.
+
 ## Monitoring
 
 ![img_2.png](img_2.png)
+
+Grafik pada dashboard RabbitMQ menunjukkan kondisi idle (diam) karena koneksi antara program Rust dan broker bersifat sangat singkat, sehingga operasi pembuatan koneksi langsung tertutup kembali sebelum sempat tercatat secara visual pada grafik menit terakhir.
+
+## Slow Subscriber
+
+![img_3.png](img_3.png)
+
+Simulasi slow subscribers, total queue saya 0.
