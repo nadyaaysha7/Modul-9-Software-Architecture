@@ -801,8 +801,7 @@ checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
 [[package]]
 name = "mio"
 version = "0.6.23"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4afd66f5b91bf2a3bc13fad0e21caedac168ca4c707504e75585648ae80e4cc4"
+source = "git+https://github.com/tokio-rs/mio?branch=v0.6.x#26d103351e251827d8bd7711a19a091b1a2bb9d4"
 dependencies = [
  "cfg-if 0.1.10",
  "fuchsia-zircon",

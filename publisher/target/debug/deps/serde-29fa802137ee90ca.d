@@ -1,0 +1,14 @@
+/mnt/c/Users/Nadya Aysha/Desktop/ADVPROG 2026/T9/publisher/target/debug/deps/serde-29fa802137ee90ca.d: /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/c/Users/Nadya\ Aysha/Desktop/ADVPROG\ 2026/T9/publisher/target/debug/build/serde-be62b92d4562b0f4/out/private.rs
+
+/mnt/c/Users/Nadya Aysha/Desktop/ADVPROG 2026/T9/publisher/target/debug/deps/libserde-29fa802137ee90ca.rlib: /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/c/Users/Nadya\ Aysha/Desktop/ADVPROG\ 2026/T9/publisher/target/debug/build/serde-be62b92d4562b0f4/out/private.rs
+
+/mnt/c/Users/Nadya Aysha/Desktop/ADVPROG 2026/T9/publisher/target/debug/deps/libserde-29fa802137ee90ca.rmeta: /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/c/Users/Nadya\ Aysha/Desktop/ADVPROG\ 2026/T9/publisher/target/debug/build/serde-be62b92d4562b0f4/out/private.rs
+
+/home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/nadya_aysha/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/mnt/c/Users/Nadya\ Aysha/Desktop/ADVPROG\ 2026/T9/publisher/target/debug/build/serde-be62b92d4562b0f4/out/private.rs:
+
+# env-dep:OUT_DIR=/mnt/c/Users/Nadya Aysha/Desktop/ADVPROG 2026/T9/publisher/target/debug/build/serde-be62b92d4562b0f4/out
