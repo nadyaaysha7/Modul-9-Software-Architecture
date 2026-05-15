@@ -31,3 +31,7 @@ Simulasi slow subscribers, total queue saya 0.
 ![img_4.png](img_4.png)
 
 Simulasi setidaknya 3 subscribers.
+
+## Refleksi
+
+Koneksi tidak muncul di dasbor RabbitMQ mungkin karena library crosstown_bus (yang menggunakan amiquip) menerapkan model koneksi transient atau sangat singkat, di mana program hanya membuka koneksi saat ada data yang dikirim atau diterima, lalu segera menutupnya kembali begitu tugas selesai. Karena dasbor memiliki jeda waktu refresh rate, biasanya setiap 5 detik, proses koneksi dan pemutusan yang terjadi dalam hitungan milidetik tersebut tidak sempat tertangkap oleh sistem pemantauan visual. Alhasil, meskipun log terminal menunjukkan bahwa pesan berhasil diproses, dasbor tetap menampilkan angka nol karena secara teknis tidak ada koneksi yang berstatus aktif atau menetap saat halaman melakukan pembaruan data.
